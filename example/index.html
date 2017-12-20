@@ -207,13 +207,9 @@
     });
 
     var webAuth = new auth0.WebAuth({
-      domain: 'brucke.auth0.com',
-      redirectUri: 'https://localhost:3000/example',
-      clientID: 'k5u3o2fiAA8XweXEEX604KCwCjzjtMU6',
-      responseType: 'token',
-      plugins: [
-        new CordovaAuth0Plugin()
-      ]
+      domain: 'graphql.auth0.com',
+      clientID: '8fErnZoF3hbzQ2AbMYu5xcS0aVNzQ0PC',
+      responseType: 'token'
     });
 
     var webAuthPasswordless = new auth0.WebAuth({
